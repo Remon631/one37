@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: EuclidFlexRegular;
+}
+@font-face {
+    font-family: EuclidFlexRegular ;
+    src: url(fonts/EuclidFlexRegular.ttf);
+}
+
+header{
+    padding: 40px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+headerimg{
+    width: 118px;
+    height: 39px;
+}
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar li{
+    margin-left: 50px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    padding-bottom: 3px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #4B1790;
+}
+
+.navbar a button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4B1790;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F2F5F5;
+}
