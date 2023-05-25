@@ -144,6 +144,8 @@ header nav img{
     font-size: 1.5rem;
     margin-top: 5.30em;
 }
+
+/* text animation starts */
 .text-change-animation:after {
     color: #4B1790;
     font-family: EuclidFlexBold;
@@ -180,6 +182,7 @@ header nav img{
         content: 'IAM';
     }
 }
+/* animation ends */
 .first-right-container {
     width: 34.81em;
     margin-top: 1.1rem;
