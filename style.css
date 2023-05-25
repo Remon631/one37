@@ -37,22 +37,41 @@
 
 /* General CSS for ovarall page */
 .body-container {
-    margin: 0px 8.25vw;
+    margin: 0 8.25vw;
     /* border: 2px solid salmon; */
 }
 
+.button-design {
+    padding: 0.5em 1em;
+    background-color: #4B1790;
+    border: none;
+    border-radius: 0.625em;
+    /* margin-top: 2.25em; */
+}
+
+.button-font {
+    text-decoration: none;
+    text-align: center;
+    color: #F2F5F5;
+    font-family: EuclidFlexThin;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+/* General CSS for ovarall page ends */
 
 /* CSS Header starts */
 .navbar{
     display: flex;
+    right: 0;
     justify-content: space-between;
     margin-top: 1.8em;
     margin-bottom: 1.8em;
 }
 
-header nav img{
-    width: 118px;
-    height: 39px;
+.navbar-logo{
+    width: 7.375em;
+    height: 2.43em;
 }
 
 .navbar-menu{
@@ -61,32 +80,24 @@ header nav img{
     align-items: center;
 }
 .navbar-menu li{
-    margin-left: 50px;
+    margin-left: 3.125em;
 }
 
-
-.navbar-menu a{
+.navbar-menu-item{
     text-decoration: none;
     text-transform: uppercase;
     color: #8d8d8d;
-    border-bottom: 2px solid transparent;
-    transition: all .55s ease;
-    padding-bottom: 3px;
+    border-bottom: 0.125em solid transparent;
+    transition: all 1s ease;
+    padding-bottom: 0.1875em;
 }
-.navbar-menu a:hover{
-    border-bottom: 2px solid #4B1790;
+.navbar-menu-item:hover{
+    border-bottom: 0.125em solid #4B1790;
+}
+.navbar-menu-button {
+    margin-left: 2.97em;
 }
 
-.navbar-menu a button{
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: none;
-    background-color: #4B1790;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #F2F5F5;
-}
 
 /* CSS Header ends */
 
@@ -120,22 +131,9 @@ header nav img{
     max-width: 30ch;
     margin-top: 2.56em;
 }
-.first-left-container > button {
-    padding: 0.5em 1em;
-    background-color: #4B1790;
-    border: none;
-    border-radius: 0.625em;
-    margin-top: 2.25em;
-}
 
-.first-container-button-font {
-    text-decoration: none;
-    text-align: center;
-    color: #F2F5F5;
-    font-family: EuclidFlexThin;
-    font-size: 1rem;
-    text-transform: uppercase;
-
+.first-container-button{
+    margin-top: 2em;
 }
 
 .first-container-final-component {
@@ -192,3 +190,73 @@ header nav img{
 
 /* First container ends */
 
+/* Second cotainer starts */
+.second-container{
+    margin-top: 6.75em;
+}
+.second-container h6{
+    font-family: EuclidFlexRegular;
+    font-size: 1.75rem;
+    line-height: 2.13rem;
+    color: #8d8d8d;
+}
+.second-container h2{
+    font-family: EuclidFlexRegular;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #4B1790;
+    margin-top: 0.5em;
+}
+.second-container-paragraph-1{
+    font-family: EuclidFlexLight;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #000;
+    margin-top: 0.5em;
+}
+.second-container-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 6.56em;
+    margin-bottom: 7.44em;
+}
+.second-container-div {
+    max-width: 18.75em;
+}
+.second-container-div-img {
+    width: 14.5em;
+    height: 14.5em;
+}
+.second-container-div h4 {
+    margin-top: 1.56em;
+    margin-bottom: 1em;
+    font-family: EuclidFlexMedium;
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.47rem;
+}
+.second-container-div ul li {
+    font-family: EuclidFlexLight;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: square;
+    line-height: 1rem;
+    max-width: 20ch;
+    line-height: 2ch;
+    margin-left: 1.1em;
+}
+.second-container-paragraph-2 {
+    color: #000;
+    font-family: EuclidFlexMedium;
+    font-size: 2.125rem;
+    line-height: 2.56rem;
+    text-align: center;
+}
+.second-container-button {
+    margin-top: 1.5em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* second container ends */
