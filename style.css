@@ -3,33 +3,69 @@
     padding: 0;
     font-family: EuclidFlexRegular;
 }
+
+/* Font family */
 @font-face {
     font-family: EuclidFlexRegular ;
     src: url(fonts/EuclidFlexRegular.ttf);
 }
-
-header{
-    padding: 40px 8%;
-    display: flex;
-    justify-content: space-between;
+@font-face {
+    font-family: EuclidFlexMedium ;
+    src: url(fonts/EuclidFlexMedium.ttf);
+}
+@font-face {
+    font-family: EuclidFlexBold ;
+    src: url(fonts/EuclidFlexBold.ttf);
+}@font-face {
+    font-family: EuclidFlexSemiBold ;
+    src: url(fonts/EuclidFlexSemiBold.ttf);
+}
+@font-face {
+    font-family: EuclidFlexThin ;
+    src: url(fonts/EuclidFlexThin.ttf);
+}
+@font-face {
+    font-family: EuclidFlexLight ;
+    src: url(fonts/EuclidFlexLight.ttf);
+}
+@font-face {
+    font-family: EuclidFlexUltraLight ;
+    src: url(fonts/EuclidFlexUltraLight.ttf);
 }
 
-headerimg{
+/* Main css starts */
+
+/* General CSS for ovarall page */
+.body-container {
+    margin: 0px 8.25vw;
+    /* border: 2px solid salmon; */
+}
+
+
+/* CSS Header starts */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+header nav img{
     width: 118px;
     height: 39px;
 }
 
-.navbar{
+.navbar-menu{
     display: flex;
     list-style-type: none;
     align-items: center;
 }
-.navbar li{
+.navbar-menu li{
     margin-left: 50px;
 }
 
 
-.navbar a{
+.navbar-menu a{
     text-decoration: none;
     text-transform: uppercase;
     color: #8d8d8d;
@@ -37,11 +73,11 @@ headerimg{
     transition: all .55s ease;
     padding-bottom: 3px;
 }
-.navbar a:hover{
+.navbar-menu a:hover{
     border-bottom: 2px solid #4B1790;
 }
 
-.navbar a button{
+.navbar-menu a button{
     padding: 8px 16px;
     border-radius: 8px;
     border: none;
@@ -51,3 +87,102 @@ headerimg{
     text-align: center;
     color: #F2F5F5;
 }
+
+/* CSS Header ends */
+
+/* Css First container starts */
+.first-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-container-headline {
+    font-size: 3.2rem;
+    color: #2B2B2B;
+    font-family: EuclidFlexBold;
+}
+.first-container-sub-headline {
+    font-family: EuclidFlexThin;
+    font-size: 1.7rem;
+    color:#4B1790;
+    line-height: 1.98rem;
+    max-width: 24ch;
+    margin-top: 1em;
+}
+.first-container-paragarph {
+    color: #545454;
+    font-size: 1.34rem;
+    font-family: EuclidFlexThin;
+    max-width: 30ch;
+    margin-top: 2.56em;
+}
+.first-left-container > button {
+    padding: 0.5em 1em;
+    background-color: #4B1790;
+    border: none;
+    border-radius: 0.625em;
+    margin-top: 2.25em;
+}
+
+.first-container-button-font {
+    text-decoration: none;
+    text-align: center;
+    color: #F2F5F5;
+    font-family: EuclidFlexThin;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+.first-container-final-component {
+    color: #8d8d8d;
+    font-family: EuclidFlexBold;
+    font-size: 1.5rem;
+    margin-top: 5.30em;
+}
+.text-change-animation:after {
+    color: #4B1790;
+    font-family: EuclidFlexBold;
+    font-size: 1.5rem;
+    content: 'Signup';
+    animation: text 10s infinite;
+}
+@keyframes text {
+    11% {
+        content: 'signup';
+    }
+    22% {
+        content: 'signin';
+    }
+    33% {
+        content: 'IT';
+    }
+    44% {
+        content: 'forms';
+    }
+    55% {
+        content: 'workflows';
+    }
+    66% {
+        content: 'process';
+    }
+    77% {
+        content: 'security';
+    }
+    88% {
+        content: 'data';
+    }
+    100% {
+        content: 'IAM';
+    }
+}
+.first-right-container {
+    width: 34.81em;
+    margin-top: 1.1rem;
+}
+
+/* First container ends */
