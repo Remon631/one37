@@ -38,7 +38,7 @@
 /* General CSS for ovarall page */
 .body-container {
     margin: 0 8.25vw;
-    /* border: 2px solid salmon; */
+    border: 2px solid salmon;
 }
 
 .button-design {
@@ -56,8 +56,85 @@
     font-family: EuclidFlexThin;
     font-size: 1rem;
     text-transform: uppercase;
-
 }
+
+/* container design starts */
+.container-header-h2{
+    font-family: EuclidFlexRegular;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #4B1790;
+    margin-top: 0.5em;
+}
+.container-paragraph{
+    font-family: EuclidFlexLight;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #000;
+    margin-top: 0.5em;
+}
+.container{
+    margin-top: 6.75em;
+}
+.container h6{
+    font-family: EuclidFlexRegular;
+    font-size: 1.75rem;
+    line-height: 2.13rem;
+    color: #8d8d8d;
+}
+
+.container-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2.56em;
+    margin-bottom: 7.44em;
+}
+.container-div {
+    max-width: 18.75em;
+    margin-top: 0.5em;
+}
+.container-div h4 {
+    margin-top: 1.56em;
+    margin-bottom: 1em;
+    font-family: EuclidFlexMedium;
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.47rem;
+}
+.container-div ul li {
+    font-family: EuclidFlexLight;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: square;
+    line-height: 1rem;
+    max-width: 20ch;
+    line-height: 2ch;
+    margin-left: 1.1em;
+}
+.container-div-paragraph{
+    font-family: EuclidFlexLight;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 1rem;
+    max-width: 20ch;
+    line-height: 2ch;
+}
+.container-paragraph-2 {
+    color: #000;
+    font-family: EuclidFlexMedium;
+    font-size: 2.125rem;
+    line-height: 2.56rem;
+    text-align: center;
+}
+.container-button {
+    margin-top: 1.5em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* container design ends */
 /* General CSS for ovarall page ends */
 
 /* CSS Header starts */
@@ -184,79 +261,35 @@
 /* animation ends */
 
 .first-right-container {
-    width: 34.81em;
+    max-width: 34.81em;
     margin-top: 1.1rem;
 }
 
 /* First container ends */
 
 /* Second cotainer starts */
-.second-container{
-    margin-top: 6.75em;
-}
-.second-container h6{
-    font-family: EuclidFlexRegular;
-    font-size: 1.75rem;
-    line-height: 2.13rem;
-    color: #8d8d8d;
-}
-.second-container h2{
-    font-family: EuclidFlexRegular;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    color: #4B1790;
-    margin-top: 0.5em;
-}
-.second-container-paragraph-1{
-    font-family: EuclidFlexLight;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-    color: #000;
-    margin-top: 0.5em;
-}
-.second-container-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-top: 6.56em;
-    margin-bottom: 7.44em;
-}
-.second-container-div {
-    max-width: 18.75em;
-}
-.second-container-div-img {
+.second-container-img {
     width: 14.5em;
     height: 14.5em;
-}
-.second-container-div h4 {
-    margin-top: 1.56em;
-    margin-bottom: 1em;
-    font-family: EuclidFlexMedium;
-    color: #000;
-    font-size: 1.25rem;
-    line-height: 1.47rem;
-}
-.second-container-div ul li {
-    font-family: EuclidFlexLight;
-    font-size: 1rem;
-    text-decoration: none;
-    list-style: square;
-    line-height: 1rem;
-    max-width: 20ch;
-    line-height: 2ch;
-    margin-left: 1.1em;
-}
-.second-container-paragraph-2 {
-    color: #000;
-    font-family: EuclidFlexMedium;
-    font-size: 2.125rem;
-    line-height: 2.56rem;
-    text-align: center;
-}
-.second-container-button {
-    margin-top: 1.5em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    margin-top: 5em;
 }
 /* second container ends */
+
+/* third container starts */
+.third-container-img {
+    max-width: 9.69em;
+    max-height: 7.88em;
+    margin-top: 5em;
+}
+/* third  container ends */
+
+/* forth container starts */
+.forth-container-paragraph {
+    font-family: EuclidFlexLight;
+    color: #000;
+    line-height: 1.5em;
+    font-size: 1.25rem;
+    width: 65.5ch;
+    margin-top: 1.5em;
+}
+/* forth container ends  */
