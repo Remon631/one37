@@ -38,7 +38,7 @@
 /* General CSS for ovarall page */
 .body-container {
     margin: 0 8.25vw;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 }
 
 .button-design {
